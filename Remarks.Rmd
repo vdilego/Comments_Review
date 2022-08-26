@@ -7,27 +7,30 @@ output: pdf_document
 
 # Impressäo geral:
 
+Excelente pergunta de pesquisa e trabalho muito relevante para o contexto brasileiro. Sugiro apenas que a literatura que vem da demografia e busca associar o conceito mais biológico com o populacional de envelhecimento seja mais explorado. Envio uma lista abaixo.
 
 ## Pergunta Central:
 Qual o significado, o potencial e os limites da abordagem prospectiva na determinação da agenda de envelhecimento populacional no Brasil do Século XXI?
 
-## Pressuposto importante em relacao ao indicador prospectivo:
-Quanto maior for a desigualdade sustentada no tempo, menor será a capacidade de mensurar o envelhecimento populacional com a abordagem prospectiva. Em síntese, há uma relação inversamente proporcional entre a assertividade da abordagem prospectiva e a condição de desigualdade no processo de envelhecimento populacional.
+A pergunta é bem clara, mas também bem ampla. Importante pensar como será oferecida uma resposta a cada um desses itens. Como o foco é na determinacao da agenda, vai ser essencial fazer uma discussão sobre o impacto desse indicador. Uma coisa são as limitaçoes de um indicador do ponto de vista puramente teórico, ou metodológico. Outra coisa são as limitaçoes de um indicador do ponto de vista da sua aplicação para política pública/agenda. São passos importantes na sua tese, e apesar de interconectados, distintos.
 
-### Hipóteses:
-1-	A abordagem prospectiva é insuficiente para mensurar o envelhecimento e determinar a agenda pública de envelhecimento em contextos de sociedades que têm a ampliação da longevidade combinada com a manutenção de condições de desigualdade. Qual é o seu instinto/pensamento que levou a achar que a bordagem prospectiva é limitadora no contexto em paíse em desenvolvimento?
+
+## Pressuposto importante em relação ao indicador prospectivo:
+"Quanto maior for a desigualdade sustentada no tempo, menor será a capacidade de mensurar o envelhecimento populacional com a abordagem prospectiva. Em síntese, há uma relação inversamente proporcional entre a assertividade da abordagem prospectiva e a condição de desigualdade no processo de envelhecimento populacional".Essa sua frase é bem forte e dá a entender que há uma simetria entre o indicador prospectivo e a proporção de pessoas idosas na população. É isso mesmo que você quer dizer? É isso que o indicador afirma? Como falamos na arguição oral, há sempre um tom nas entrelinhas quando você fala que há uma inerente limitação do indicador em contextos desiguais. Acho importante deixar isso bem claro, porque é um pressuposto importante que você faz e que acaba guiando todo o resto da discussão. Nas suas hipótese, também é colocado que: "A abordagem prospectiva é insuficiente para mensurar o envelhecimento e determinar a agenda pública de envelhecimento em contextos de sociedades que têm a ampliação da longevidade combinada com a manutenção de condições de desigualdade." Qual é o seu instinto/pensamento que levou a achar que a bordagem prospectiva é limitadora no contexto de países em desenvolvimento?
 
 “Na medida em que os indivíduos da população envelhecem, surge a senescência e o
 aumento da probabilidade de morte, bem como o aumento das taxas de mortalidade
-específicas por idade.” – Na verdade, a senescência näo surge. Isso até mesmo contradiz a forma como você elabora o argumento do envelhecimento biológico. A senescência é um processo. A dificuldade aqui de associar ao aumento das taxas de mortality é a questäo do aumento em idades mais jovens adultas e em idades bem avancadas, onde tem-se mostrado que atinge-se um plateau de extrema idade. Ou seja, o risco de morte se mantém estável – apesar de alto. 
+específicas por idade.” – Na verdade, a senescência não surge. Isso até mesmo contradiz a forma como você elabora o argumento do envelhecimento biológico. A senescência é um processo. A dificuldade aqui de associar ao aumento das taxas de mortalidade é a questäo do aumento em idades mais jovens adultas e em idades bem avancadas, onde tem-se mostrado que atinge-se um plateau de extrema idade. Ou seja, o risco de morte se mantém estável – apesar de alto. Isso significa que a funcao de mortalidade só tem uma constancia mesmo em idades adultas, ou mais particularmente entre 30 e 80 anos.
 
 
 - "A utilização de curvas de sobrevivência é útil para fazer inferências acerca de alterações na longevidade de uma população, mas não informa sobre qualquer alteração na composição etária de uma população porque não considera as alterações na fecundidade e migração."- pg. 22. Essa frase näo é muito precisa. Na verdade, há contextos em demografia em que é possível estabelecer uma relacao direta entre a curva de sobrevivência, composicäo etária e nascimentos. Por exemplo, em populacao estável, você pode estabelecer que:
 
 $$c(a,t)= be^{-ra}l(a)$$
-onde $c(a,t)$ é a composicao da populacao, $b$ säo os nascimentos e $l(a)$ é a funcao de sobrevivência. Isso vem da relacao estabelecida por Lotka, onde:
+onde $c(a,t)$ é a composicao da populacao, $b$ säo os nascimentos e $l(a)$ é a funcao de sobrevivência. Isso vem da relacao estabelecida por Lotka. 
 
 Eu entendo que a idade cronológica do ano índice foi escolhida com base na definicao de idoso no Brasil (60 anos). No entanto, seria importante fazer uma análise de robustez, onde diferentes idades säo usadas para avaliar como a escolha do padrao interfere nos resultados. Como há toda uma discussäo no início do trabalho sobre diferencas entre países em desenvolvimento e desenvolvidos, é importante usar o critério de 65 também e aumentar paulatinamente até cerca de 80. Será que o método se comporta da mesma forma? Näo há nada intrínseco ao método que sugira diferencas. É importante comprovar isso.
 
-A interpolação da expectativa de sobrevida no ano índice segundo a idade cronológica escolhida e as expectativas de sobrevida disponíveis no ano índice säo feitas usando uma funcao linear. Mas essa näo é a forma mais acurada de interpolar expectativa de vida, devido ao padrao de mortalidade. O ideal é interpolar a taxa específica de mortalidade e entäo possivelmente ajustar idades mais avancadas usando métodos como "Kannisto", "Kannisto_Makeham", "Makeham", "Gompertz", "GGompertz", "Beard", "Beard_Makeham", "Quadratic", etc. Apesar da trajetória da ex ser linear, a funcao subjacente näo é.
+A interpolação da expectativa de sobrevida no ano índice segundo a idade cronológica escolhida e as expectativas de sobrevida disponíveis no ano índice säo feitas usando uma funcao linear. Mas essa näo é a forma mais acurada de interpolar expectativa de vida, devido ao padrao de mortalidade. O ideal é interpolar a taxa específica de mortalidade e entäo possivelmente ajustar idades mais avancadas usando métodos como "Kannisto", "Kannisto_Makeham", "Makeham", "Gompertz", "Gama-Gompertz", "Beard", "Beard_Makeham", "Quadratic", etc. Apesar da trajetória da ex ser linear, a funcao subjacente näo é. Há um conjunto de rotinas no pacote "DemoTools" elaborado pelo Tim Riffe em que você pode transformar uma tabela de vida em cinco anos para uma tabela de vida simples. Outra coisa importante é que na tabela de vida que você usa como ponto de partida fecha a tabela de vida em uma idade diferente do ano índice. Isso pode gerar distorcoes. Sugiro usar o mesmo conjunto de rotinas para extrapolar a última idade e assim ter as tabelas harmonizadas.
+
+
 
